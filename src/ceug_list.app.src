@@ -1,0 +1,16 @@
+%%% -*-erlang-*-
+{application, ceug_list,
+ [{description, "Sample list app for CEUG"},
+  {vsn, "0.0.0"},
+  {modules, []},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    sasl,
+    e2,
+    psycho,
+    erlydtl]},
+  {mod, {e2_application, [ceug_list_app]}},
+  {env, []}
+ ]}.

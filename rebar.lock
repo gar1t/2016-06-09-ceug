@@ -1,0 +1,12 @@
+[{<<"e2">>,
+  {git,"git://github.com/gar1t/e2.git",
+       {ref,"22133c999ecf9923b04b9dfc5f1264dcb589ce2f"}},
+  0},
+ {<<"erlydtl">>,
+  {git,"git://github.com/erlydtl/erlydtl.git",
+       {ref,"333025ad718e586d98852ef499eb3fbb69a349f4"}},
+  0},
+ {<<"psycho">>,
+  {git,"git://github.com/gar1t/psycho.git",
+       {ref,"cb1089da6dbc56223b08cec3dca2dcd8fabe883e"}},
+  0}].
