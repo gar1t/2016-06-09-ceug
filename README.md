@@ -21,7 +21,7 @@ After cloning this repo, change to its directory and run:
 make shell
 ```
 
-Visit http://localhost:8333
+Visit <a href="http://localhost:8333">http://localhost:8333</a>
 
 Rock on!
 
@@ -33,11 +33,9 @@ silly app in Java.
 
 To benchmark, naively, first run the server you want to test:
 
-Erlang: `make shell`
-
-Python: `make serve-python-hello`
-
-Java: `make serve-java-hello`
+- Erlang: `make shell`
+- Python: `make serve-python-hello`
+- Java: `make serve-java-hello`
 
 Use `ab` to measure stuff:
 
@@ -47,13 +45,14 @@ ab -r -n 10000 -c 100 http://127.0.0.1:PORT/
 
 The ports are:
 
-Python: `8334`
-Java: `8335`
-Erlang: `8336`
+- Python: `8334`
+- Java: `8335`
+- Erlang: `8336`
 
 Benchmarks like this are silly and don't really prove anything. But
 it's fun to think they do. Even so, the Erlang server is reasonably
 performant under load.
 
 For a more performant and better behaved Erlang server (uses a
-connection pool) see Cowboy.
+connection pool) see <a
+href="https://github.com/ninenines/cowboy">Cowboy</a>.
