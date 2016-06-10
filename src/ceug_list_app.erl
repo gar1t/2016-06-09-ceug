@@ -8,4 +8,4 @@ init() ->
     {ok, children()}.
 
 children() ->
-    [ceug_list_db, ceug_list_http].
+    [ceug_list_db, ceug_list_http, ceug_hello_http].
