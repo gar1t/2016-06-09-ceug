@@ -17,7 +17,7 @@ create_app() ->
 
 routes() ->
     [{{starts_with, "/assets/"}, static_app()},
-     {"/",                       ceug_list_index_http:create_app()}].
+     {"/", ceug_list_index_http:create_app()}].
 
 static_app() ->
     psycho_static:create_app("priv").
